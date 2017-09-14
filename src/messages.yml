@@ -1,0 +1,32 @@
+###########################################################
+# +-----------------------------------------------------+ #
+# |                      Messages                       | #
+# +-----------------------------------------------------+ #
+###########################################################
+
+system:
+   no-permissions: "&cYou don't have the permissions."
+
+portals:
+   dont-exist: "&cThis portal don't exist."
+   
+   creating:
+      create-portal: "&aYou created a new portal: &l<portal>"
+      already-exist: "&cThis portal is already created."
+
+   removing:
+      remove-portal: "&aYou removed a portal: &l<portal>"
+   
+   location:
+      defined: "&aYou defined the teleport location for: &l<portal>"
+      not-defined: "&cThis portal don't have a location."
+      
+   teleport-block:
+      already-defined: "&cThis block is already the teleport block of: &l<portal>"
+      define: "&aClick now on a block to define the teleport block!"
+      defined-success: "&aYou have defined the teleport block for: &l<portal>!"
+      defined-error: "&cThe teleport block need to be a <block>"
+      block-destroyed: "&cYou destroy the teleport block of: &l<portal>"
+
+signs:
+   no-permissions: "&cYou don't have the permissions to create teleportation signs."

@@ -1,0 +1,20 @@
+main: fr.plx0wn.EasyPortals
+name: EasyPortals
+description: Create portals easily.
+author: [Plx0wn, lucluc52]
+version: 0.1
+
+commands:
+   portals:
+      default: op
+      description: Main command.
+
+permissions:
+   portals.create:
+      default: op
+   portals.use:
+      default: op
+   signs.create:
+      default: op
+   signs.use:
+      default: op
